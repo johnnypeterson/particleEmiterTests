@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D8B0DED2271124300A59856 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8D8B0DEB2271124300A59856 /* MyParticle.sks */; };
+		8D8B0DEE2271124300A59856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8B0DEC2271124300A59856 /* Assets.xcassets */; };
 		8DA105772270D35A003F7407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA105762270D35A003F7407 /* AppDelegate.swift */; };
 		8DA105792270D35B003F7407 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA105782270D35B003F7407 /* ViewController.swift */; };
 		8DA1057C2270D35B003F7407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1057A2270D35B003F7407 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D8B0DEB2271124300A59856 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		8D8B0DEC2271124300A59856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DA105732270D35A003F7407 /* edu.johnny.particle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = edu.johnny.particle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA105762270D35A003F7407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DA105782270D35B003F7407 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		8DA1056A2270D35A003F7407 = {
 			isa = PBXGroup;
 			children = (
+				8D8B0DEB2271124300A59856 /* MyParticle.sks */,
+				8D8B0DEC2271124300A59856 /* Assets.xcassets */,
 				8DA105752270D35A003F7407 /* edu.johnny.particle */,
 				8DA105742270D35A003F7407 /* Products */,
 			);
@@ -125,6 +131,8 @@
 				8DA105812270D35F003F7407 /* LaunchScreen.storyboard in Resources */,
 				8DA1057E2270D35F003F7407 /* Assets.xcassets in Resources */,
 				8DA1057C2270D35B003F7407 /* Main.storyboard in Resources */,
+				8D8B0DED2271124300A59856 /* MyParticle.sks in Resources */,
+				8D8B0DEE2271124300A59856 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C536ENH863;
 				INFOPLIST_FILE = edu.johnny.particle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C536ENH863;
 				INFOPLIST_FILE = edu.johnny.particle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
